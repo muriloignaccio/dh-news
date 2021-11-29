@@ -27,6 +27,15 @@ main {
 
 div.container {
   width: fit-content;
-  margin: 0 auto;
+  margin: 15px auto;
+}
+
+.container a {
+  text-decoration: none;
+  
+}
+
+.container a + a {
+  margin-left: 10px;
 }
 
